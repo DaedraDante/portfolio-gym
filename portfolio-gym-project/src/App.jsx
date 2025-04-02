@@ -1,10 +1,16 @@
 import { useState } from 'react'
-
+import HeroSection from './HeroSection'
+import FeaturesSection from './FeaturesSection'
+import TestimonialsSection from './TestimonialsSection'
+import PricingSection from './PricingSection'
 function App() {
   
   return (
     <>
-      <h1>Pro Gym</h1>
+      <HeroSection />
+      <FeaturesSection />
+      <TestimonialsSection />
+      <PricingSection />
     </>
   )
 }
