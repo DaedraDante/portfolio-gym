@@ -55,29 +55,40 @@ body {
 
 .quote-section {
     height: 8rem;
-    background: rgb(230, 6, 238);
+    background: var(--background-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    align-content: center;
+}
+.quote-section h1 {
+    color: var(--primary-color);
 }
 
 
 .features-section {
     height: 1080px;
-    background: rgb(100, 100, 255);
+    background:var(--background-color);
 }
 .features-benefits-section {
     margin-top: 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
-    margin-top: 12rem;
+    margin-top: 14rem;
     margin-left: 10rem;
     justify-content: center;
     align-content: center;
 }
 .features-benefits-section div {
-    width: 12rem;
+    width: 16rem;
 }
 .features-benefits-section h3 {
+    font-size: 2rem;
     margin-bottom: 2rem;
+}
+.features-benefits-section p {
+    font-size: 1.3rem;
 }
 
 

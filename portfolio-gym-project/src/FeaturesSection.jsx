@@ -6,6 +6,7 @@ function FeaturesSection() {
                 <h2>We only provide whats best for our customers</h2>
                 <div className="features-benefits-section">
                     <div>
+                        <img src="\icons8-sauna-50.png" alt="sauna icon" />
                         <h3>24/7 Acces</h3>
                         <p>We offer you the choice to come anytime to come to our gym
                             and spend time building that temple-like body
