@@ -61,7 +61,23 @@ body {
 
 .features-section {
     height: 1080px;
-    background: blue;
+    background: rgb(100, 100, 255);
+}
+.features-benefits-section {
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 12rem;
+    margin-left: 10rem;
+    justify-content: center;
+    align-content: center;
+}
+.features-benefits-section div {
+    width: 12rem;
+}
+.features-benefits-section h3 {
+    margin-bottom: 2rem;
 }
 
 
