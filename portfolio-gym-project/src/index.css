@@ -55,20 +55,20 @@ body {
 
 .quote-section {
     height: 8rem;
-    background: var(--background-color);
+    background: var(--primary-color);
     color: var(--primary-color);
     font-size: 1.5rem;
     text-align: center;
     align-content: center;
 }
 .quote-section h1 {
-    color: var(--primary-color);
+    color: var(--font-color);
 }
 
 
 .features-section {
     height: 1080px;
-    background:var(--background-color);
+    background:var(--background);
 }
 .features-benefits-section {
     margin-top: 12rem;
@@ -77,8 +77,6 @@ body {
     margin: 0 auto;
     margin-top: 14rem;
     margin-left: 10rem;
-    justify-content: center;
-    align-content: center;
 }
 .features-benefits-section div {
     width: 16rem;
@@ -86,10 +84,21 @@ body {
 .features-benefits-section h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 .features-benefits-section p {
     font-size: 1.3rem;
+    text-align: center;
 }
+.features-benefits-section img {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+.features-benefit-div {
+    text-align: center;
+}
+
 
 
 .testimonials-section {
@@ -102,3 +111,4 @@ body {
     height: 1080px;
     background: rgb(8, 233, 45);
 }
+
