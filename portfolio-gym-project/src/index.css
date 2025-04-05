@@ -103,7 +103,29 @@ body {
 
 .testimonials-section {
     height: 1080px;
-    background: rgb(226, 47, 16);
+    background: var(--primary-color);
+
+}
+.testimonials-section img {
+    width: 450px;
+    height: 290px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30px
+}
+.testimonials-section-div-for-pics {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-section-individual-div{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 5px solid var(--background-color);
+    text-align: center;
+    padding-bottom: 12rem;
 }
 
 
