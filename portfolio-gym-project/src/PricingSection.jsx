@@ -4,22 +4,22 @@
         <div className="pricing-section">
             <div className="pricing-cards-container">
                 <div className="pricing-card">
-                    <p>Monthly</p>
+                    <h1>Monthly</h1>
                     <p>30$</p>
                     <button>Cumpara acum sau nu</button>
                 </div>
                 <div className="pricing-card">
-                    <p>3 Month</p>
+                    <h1>3 Month</h1>
                     <p>75$</p>
                     <button>Cumpara acum sau nu</button>
                 </div>
                 <div className="pricing-card">
-                    <p>1 Year</p>
+                    <h1>1 Year</h1>
                     <p>280$</p>
                     <button>Cumpara acum sau nu</button>
                 </div>
                 <div className="pricing-card">
-                    <p>One Day Pass</p>
+                    <h1>One Day Pass</h1>
                     <p>10$</p>
                     <button>Cumpara acum sau nu</button>
                 </div>

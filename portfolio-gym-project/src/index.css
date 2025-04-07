@@ -29,7 +29,7 @@ body {
 .hero-title {
     font-size: 6rem;
     text-align: center;
-    margin-top: 8rem;
+    padding-top: 8rem;
     color: var(--font-color);
 }
 .hero-section p {
@@ -180,8 +180,31 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 16em;
-    height: 30rem;
+    align-items: center;
+    width: 20rem;
+    height: 34rem;
     margin: 2rem;
 }
+.pricing-card:hover {
+    position: relative;
+    bottom: 8px;
+    scale: 1.1;
+}
+.pricing-card h1 {
+    color: var(--font-color);
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.pricing-card p {
+    color: var(--font-color);
+    font-size: 2.4rem;
+    margin-top: 1.5rem;
+}
+.pricing-card button {
+    margin-top: 12rem;
+    background-color: var(--background-color);
+    width: 16rem;
+    height: 3.5rem;
+    color: var(--primary-color);
+}   
 
