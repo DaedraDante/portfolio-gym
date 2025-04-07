@@ -34,12 +34,13 @@ body {
 }
 .hero-section p {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 .hero-section button {
     display: flex;
-    width: 11rem;
-    height: 3.5rem;
+    width: 16rem;
+    height: 4rem;
     background-color: var(--primary-color);
     text-align: center;
     justify-content: center;
@@ -48,15 +49,27 @@ body {
     font-style: italic;
     font-size: 2rem;
     margin: 0 auto;
-    margin-top: 12rem;
+    margin-top: 14rem;
     margin-bottom: 0;
     padding-bottom: 0;
+    border: none;
+    border-radius: 8px;
+}
+.hero-section button:hover {
+    font-size: 2.2rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    scale: 1.1;
+}
+.hero-section button:active {
+    position: relative;
+    top: 2px;
 }
 
 .quote-section {
     height: 8rem;
-    background: var(--primary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     text-align: center;
     align-content: center;
@@ -153,6 +166,22 @@ body {
 
 .pricing-section {
     height: 1080px;
-    background: rgb(8, 233, 45);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-cards-container {
+    display: flex;
+}
+.pricing-card {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 16em;
+    height: 30rem;
+    margin: 2rem;
 }
 

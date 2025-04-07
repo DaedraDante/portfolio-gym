@@ -23,7 +23,7 @@ function TestimonialsSection() {
                     </p>
                     </div>
                 </div>
-                <button>See for yourself!</button>
+                <button className="">See for yourself!</button>
             </div>  
             
             
