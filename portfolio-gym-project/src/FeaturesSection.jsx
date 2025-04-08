@@ -3,8 +3,8 @@ function FeaturesSection() {
     return(
             <div className="features-section">
                 {/* <h1>This is the features section</h1> */}
-                <h2 style={{textAlign:"center",fontSize:"2.5rem",marginTop:"6rem"}}>What we provide at Zeus Fit  gym</h2>
-                <p style={{textAlign:"center",marginTop:"1rem"}}>Our main goal is to ensure the customers that 
+                <h2 style={{textAlign:"center",fontSize:"4rem",marginTop:"6rem"}}>What we provide at Zeus Fit  gym</h2>
+                <p style={{textAlign:"center",marginTop:"2rem",fontSize:"1.5rem"}}>Our main goal is to ensure the customers that 
                     their experience here is the best of the best and <br></br>they can reach their peak potential
                     at any time of the day with the best equipment,staff and rejuvenating mediums
                 </p>

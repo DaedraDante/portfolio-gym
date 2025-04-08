@@ -184,11 +184,13 @@ body {
     width: 20rem;
     height: 34rem;
     margin: 2rem;
+    box-shadow: rgba(82, 225, 230, 0.856) 0px 48px 80px 0px;
 }
 .pricing-card:hover {
     position: relative;
     bottom: 8px;
     scale: 1.1;
+    box-shadow: rgb(31, 195, 245) 0px 48px 100px 0px;
 }
 .pricing-card h1 {
     color: var(--font-color);
@@ -201,10 +203,13 @@ body {
     margin-top: 1.5rem;
 }
 .pricing-card button {
-    margin-top: 12rem;
+    margin-top: 6rem;
     background-color: var(--background-color);
-    width: 16rem;
-    height: 3.5rem;
+    width: 18rem;
+    height: 4rem;
     color: var(--primary-color);
-}   
+}  
+.pricing-card h2 {
+    margin-top: 6rem;
+} 
 
