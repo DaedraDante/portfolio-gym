@@ -129,6 +129,16 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-top: 3.5rem;
+    border: none;
+}
+.testimonials-section button:hover {
+    scale:1.1;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.testimonials-section button:active {
+    position: relative;
+    top: 2px;
 }
 .testimonials-section img {
     width: 450px;
@@ -208,8 +218,20 @@ body {
     width: 18rem;
     height: 4rem;
     color: var(--primary-color);
+    font-size: 2rem;
 }  
+.pricing-card button:hover {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    font-weight: bold;
+    font-style: italic;
+}
+.pricing-card button:active {
+    position: relative;
+    top: 2px;
+}
 .pricing-card h2 {
     margin-top: 6rem;
+    padding: .5rem;
 } 
 
