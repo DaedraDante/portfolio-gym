@@ -25,17 +25,24 @@ body {
     width: 1920px;
     position: absolute;
     top: -1.5rem;
+
 }
 .hero-title {
     font-size: 6rem;
     text-align: center;
     padding-top: 8rem;
     color: var(--font-color);
+    text-shadow: var(--primary-color) 3px 0 10px;
+    opacity: 0.4;
+    transition: opacity 450ms ease-in-out;
+}
+.hero-title:hover {
+    opacity: 1;
 }
 .hero-section p {
     text-align: center;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 2rem; 
 }
 .hero-section button {
     display: flex;
@@ -98,6 +105,7 @@ body {
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    text-shadow: var(--primary-color) 1px 0 10px;
 }
 .features-benefits-section p {
     font-size: 1.3rem;
@@ -130,11 +138,15 @@ body {
     margin: 0 auto;
     margin-top: 3.5rem;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-shadow: var(--accent-color) 1px 0 10px;
+    transition: scale 150ms ease-out;
 }
 .testimonials-section button:hover {
     scale:1.1;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    transition: scale 150ms ease-out;
 }
 .testimonials-section button:active {
     position: relative;
@@ -193,24 +205,32 @@ body {
     align-items: center;
     width: 20rem;
     height: 34rem;
-    margin: 2rem;
+    margin: 3rem;
     box-shadow: rgba(82, 225, 230, 0.856) 0px 48px 80px 0px;
+    border: 1px solid var(--background-color);
+    transition: scale 600ms ease-out;
 }
 .pricing-card:hover {
     position: relative;
     bottom: 8px;
     scale: 1.1;
     box-shadow: rgb(31, 195, 245) 0px 48px 100px 0px;
+    transition: scale 150ms ease-out;
 }
+
 .pricing-card h1 {
     color: var(--font-color);
     margin-top: 2rem;
     font-size: 2.5rem;
+    text-shadow:   1px 1px 2px var(--background-color),
+    0 0 1em var(--secondary-color),
+    0 0 0.2em var(--secondary-color);
 }
 .pricing-card p {
     color: var(--font-color);
     font-size: 2.4rem;
     margin-top: 1.5rem;
+    text-shadow: var(--background-color) 1px 0 10px;
 }
 .pricing-card button {
     margin-top: 6rem;
@@ -219,6 +239,8 @@ body {
     height: 4rem;
     color: var(--primary-color);
     font-size: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-shadow: var(--accent-color) 1px 0 10px;
 }  
 .pricing-card button:hover {
     background-color: var(--secondary-color);
@@ -233,5 +255,6 @@ body {
 .pricing-card h2 {
     margin-top: 6rem;
     padding: .5rem;
+    text-shadow: var(--background-color) 1px 0 10px;
 } 
 
