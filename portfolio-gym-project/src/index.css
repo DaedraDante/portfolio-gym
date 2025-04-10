@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     color: var(--font-color);
+    line-height: calc(1em + 0.5rem);
 }
 body {
     background-color: var(--background-color);
@@ -206,7 +207,7 @@ body {
     width: 20rem;
     height: 34rem;
     margin: 3rem;
-    box-shadow: rgba(82, 225, 230, 0.856) 0px 48px 80px 0px;
+    box-shadow: rgba(82, 225, 230, 0.856) 0px 6px 40px 0px;
     border: 1px solid var(--background-color);
     transition: scale 600ms ease-out;
 }
