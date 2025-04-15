@@ -15,7 +15,13 @@ body {
     --secondary-color: rgba(21, 38, 190, 0.925);
     --accent-color:rgb(66, 211, 163);
 }
-
+.hidden {
+   opacity: 0;
+   transition: all 1s;
+}
+.show {
+   opacity: 1;
+}
 .hero-section {
     height: 100vh;
     height: 100dvh;
@@ -34,11 +40,9 @@ body {
     padding-top: 8rem;
     color: var(--font-color);
     text-shadow: var(--primary-color) 3px 0 10px;
-    opacity: 0.4;
-    transition: opacity 450ms ease-in-out;
 }
-.hero-title:hover {
-    opacity: 1;
+.slideToRightAni {
+    animation: slideToRight 1s ease;
 }
 .hero-section p {
     text-align: center;
@@ -62,17 +66,17 @@ body {
     padding-bottom: 0;
     border: none;
     border-radius: 8px;
-    transition: scale 300ms;
+    transition: all 200ms;
 }
 .hero-section button:hover {
     font-size: 2.2rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    scale: 1.1;
+    transform: scale(1.1);
 }
 .hero-section button:active {
     position: relative;
-    top: 2px;
+    transform: translateY(2px);
 }
 
 .quote-section {
@@ -142,17 +146,17 @@ body {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     text-shadow: var(--accent-color) 1px 0 10px;
-    transition: scale 150ms ease-out;
+    transition: all 200ms ease-out;
 }
 .testimonials-section button:hover {
     scale:1.1;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    transition: scale 150ms ease-out;
+    transition: all 200ms ease-out;
 }
 .testimonials-section button:active {
     position: relative;
-    top: 2px;
+    transform: translateY(2px);
 }
 .testimonials-section img {
     width: 450px;
@@ -260,3 +264,12 @@ body {
     text-shadow: var(--background-color) 1px 0 10px;
 } 
 
+@keyframes slideToRight {
+    from {
+        transform: translateX(800px);
+    }
+    
+    to {
+        transform: translateX(0px);
+    }
+}

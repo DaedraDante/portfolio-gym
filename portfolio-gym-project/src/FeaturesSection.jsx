@@ -8,14 +8,14 @@ function FeaturesSection() {
                     their experience here is the best of the best and <br></br>they can reach their peak potential
                     at any time of the day with the best equipment,staff and rejuvenating mediums
                 </p>
-                <div className="features-benefits-section">
+                <div className="features-benefits-section hidden">
                     <div className="features-benefit-div">
                         <img src="/schedule_24dp_33CDD8_FILL0_wght400_GRAD0_opsz24.png" alt="sauna icon" />
                         <h3>24/7 Acces</h3>
                         <p>We offer you the choice to build your own statue-like body at any time interval you so desire to
                         </p>
                     </div>
-                    <div className="features-benefit-div">
+                    <div className="features-benefit-div hidden">
                         <img src="/self_improvement_24dp_33CDD8_FILL0_wght400_GRAD0_opsz24.png" alt="time icon" /> 
                         <h3>Sauna Service</h3>
                         <p>We provide sauna services for both men and women so our
@@ -23,14 +23,14 @@ function FeaturesSection() {
                            along with your spirit in this peaceful environment
                         </p>
                     </div>
-                    <div className="features-benefit-div">
+                    <div className="features-benefit-div hidden">
                         <img src="/fitness_center_24dp_33CDD8_FILL0_wght400_GRAD0_opsz24.png" alt="equipment icon" /> 
                         <h3>State of the art equipment</h3>
                         <p>We only provide the best of the best top grade workout equipment
                             for our customers
                         </p>
                     </div>
-                    <div className="features-benefit-div">
+                    <div className="features-benefit-div hidden">
                         <img src="/handshake_24dp_33CDD8_FILL0_wght400_GRAD0_opsz24.png" alt="trainer icon" />
                         <h3>Professional Personal Trainers</h3>
                         <p>We have an array of skilled personal trainers ready to be
