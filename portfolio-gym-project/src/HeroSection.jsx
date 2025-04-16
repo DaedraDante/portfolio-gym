@@ -4,7 +4,7 @@ function HeroSection() {
     
     return (
         <div className="hero-section">
-            <h1 className="hero-title">Zeus Fit <br /> Gym</h1>
+            <h1 className="hero-title text-shadow-drop-center">ZEUS FIT <br /> GYM</h1>
             <button>Join now</button>
             <p>Build your own godly body</p>
             <video src="\5319759-uhd_3840_2160_25fps.mp4"
