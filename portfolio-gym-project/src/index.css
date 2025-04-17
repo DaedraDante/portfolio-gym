@@ -211,13 +211,25 @@ body {
     position: relative;
     transform: translateY(2px);
 }
-.testimonials-section img {
+.testimonials-section-img {
     width: 450px;
     height: 290px;
     padding: 1rem;
     margin: 1rem;
-    border-radius: 30px
 }
+.testimonials-section-text {
+    color: var(--font-color);
+}
+.testimonial-section-individual-div:hover .testimonials-section-text{
+    color: var(--primary-color);
+    text-shadow:
+    1px 1px 2px var(--primary-color),
+    0 0 1em var(--primary-color),
+    0 0 0.2em var(--secondary-color);
+    visibility: visible;
+    transition: all 600ms;
+}
+
 .testimonials-section-div-for-pics {
     display: flex;
     justify-content: center;
@@ -243,6 +255,8 @@ body {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+
+
 
 
 
@@ -276,6 +290,9 @@ body {
     scale: 1.1;
     box-shadow: rgb(31, 195, 245) 0px 48px 100px 0px;
     transition: scale 150ms ease-out;
+}
+.pricing-card:hover .pricing-card h1 {
+    color: blue;
 }
 .pricing-card h1 {
     color: var(--font-color);
