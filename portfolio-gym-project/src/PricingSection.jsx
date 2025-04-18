@@ -1,7 +1,7 @@
 
  function PricingSection() {
     return (
-        <div className="pricing-section">
+        <div className="pricing-section" id="pricing-section">
             <div className="pricing-cards-container">
                 <div className="pricing-card">
                     <h1>Monthly</h1>

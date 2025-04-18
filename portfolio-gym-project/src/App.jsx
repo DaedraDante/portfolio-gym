@@ -4,6 +4,7 @@ import QuoteSection from './QuoteSection'
 import FeaturesSection from './FeaturesSection'
 import TestimonialsSection from './TestimonialsSection'
 import PricingSection from './PricingSection'
+import Navbar from './Navbar'
 function App() {
   
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <HeroSection />
       <QuoteSection />
       <FeaturesSection />

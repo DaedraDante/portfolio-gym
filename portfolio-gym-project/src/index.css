@@ -8,6 +8,9 @@
 body {
     background-color: var(--background-color);
 }
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --background-color:rgb(0, 0, 0);
     --font-color: aliceblue;
@@ -29,6 +32,27 @@ body {
 
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: var(--font-color);
+    font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+}
+.navbar__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
 .text-shadow-drop-center {
 	-webkit-animation: text-shadow-drop-center 0.6s infinite alternate both;
 	        animation: text-shadow-drop-center 0.6s infinite alternate both;
@@ -138,6 +162,7 @@ body {
 .features-section {
     height: 1080px;
     background:var(--background);
+    scroll-margin-top: 80px;
 }
 .features-benefits-section {
     margin-top: 12rem;
@@ -182,6 +207,7 @@ body {
 
 
 .testimonials-section {
+    scroll-margin-top: 80px;
     height: 1080px;
     background: var(--primary-color);
     display: flex;
@@ -261,6 +287,7 @@ body {
 
 
 .pricing-section {
+    scroll-margin-top: 80px;
     height: 1080px;
     background-color: var(--background-color);
     display: flex;

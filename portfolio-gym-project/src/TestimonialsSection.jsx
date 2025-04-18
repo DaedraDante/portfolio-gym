@@ -1,7 +1,7 @@
 
 function TestimonialsSection() {
     return (
-        <div className="testimonials-section">
+        <div className="testimonials-section" id="testimonials-section">
                 <div className="testimonials-section-div-for-pics hidden">
                     <div className="testimonial-section-individual-div">
                     <img src="https://i0.wp.com/thecutgym.com/wp-content/uploads/2024/06/male-body-transformation-london-2.webp?fit=1000%2C700&ssl=1" alt="before-after-pic-1" className="testimonials-section-img" />

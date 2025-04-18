@@ -1,7 +1,7 @@
 
 function FeaturesSection() {
     return(
-            <div className="features-section">
+            <div className="features-section" id="features-section">
                 {/* <h1>This is the features section</h1> */}
                 <h2 style={{textAlign:"center",fontSize:"4rem",marginTop:"6rem"}}>What we provide at Zeus Fit  gym</h2>
                 <p style={{textAlign:"center",marginTop:"2rem",fontSize:"1.5rem"}}>Our main goal is to ensure the customers that 
