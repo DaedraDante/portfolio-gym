@@ -203,8 +203,7 @@ html {
 }
 .features-benefits-section img {
     margin: 0 auto;
-    width: 60px;
-    height: 60px;
+    max-width: 100%;
 }
 .features-benefit-div {
     text-align: center;
@@ -367,4 +366,19 @@ html {
     padding: .5rem;
     text-shadow: var(--background-color) 1px 0 10px;
 } 
-
+  /* Styles for small phones */
+@media (max-width: 480px) {
+ 
+}
+  /* Styles for tablets & large phones */
+@media (max-width: 768px) {
+  
+}
+  /* Styles for tablets (landscape) and small laptops */
+@media (max-width: 992px) {
+  
+}
+  /* Styles for most desktops */
+@media (max-width: 1200px) {
+  
+}
